@@ -16,7 +16,7 @@ This exercise is split into two parts.
 ### Parameters :
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
-| path | 'string' | compulsory |  | Path to the excel file in the data folder|
+| path | string | compulsory |  | Path to the excel file in the data folder|
 
 ### Returns:
 | Return | dtype | description |
