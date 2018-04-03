@@ -1,4 +1,4 @@
-# Scrape Data From the web 
+# Mapping Countries to their abbreviations
 
 In this assignment you will use the data scraped from the previous assignment and map abbriviation to the 
 name of states.
