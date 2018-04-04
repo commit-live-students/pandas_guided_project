@@ -2,8 +2,7 @@
 
 Great Job so far!
 
-Now lets move on and use the newly created abbr column to understand the amount generated
-from each state.
+Now lets move on and use the newly created abbr column to understand the total amount that the bank holds in each state.
  
   
 
