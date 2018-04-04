@@ -14,7 +14,6 @@ Now lets move on and use the newly created abbr column to understand the total a
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
 | path1 | string | compulsory |  | Path to the excel file in the data folder|
-| --- | --- | --- | --- | --- |
 | path2 | string | compulsory |  | Path to the csv file in the data folder|
 ### Returns:
 | Return | dtype | description |
