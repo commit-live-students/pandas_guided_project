@@ -1,4 +1,4 @@
-# Pie char for jan Month
+# Pie char for total
 
 Great job so far,
 
