@@ -10,9 +10,11 @@ path1 = 'data/excel-comp-data.xlsx'
 path2 = 'data/scraped.csv'
 
 def q06_sub_total(path1,path2):
-    "write your solution here"
+    'write your solution here'
     df_final = q05_replace_missing_values(path1,path2)
     #df_final['abbr'] = df_final['abbr'].astype(str)
-    df_sub=df_final[["abbr", "Jan", "Feb", "Mar", "total"]].groupby("abbr").sum()
+    df_sub=df_final[['abbr', 'Jan', 'Feb', 'Mar', 'total']].groupby('abbr').sum()
 
     return df_sub
+
+
