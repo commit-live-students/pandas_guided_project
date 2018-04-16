@@ -16,5 +16,3 @@ def q05_replace_missing_values(path1,path2):
     df_final.replace(df_final.iloc[10], df_tenessee, inplace=True)
     return df_final
 
-
-
