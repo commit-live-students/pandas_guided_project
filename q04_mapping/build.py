@@ -10,7 +10,7 @@ def q04_mapping(path1,path2):
     df1 = q02_append_row(path1)
     df1['abbr'] = np.nan
     df2 = pd.read_csv(path2)
-    ab = df2['U.S..1']
+    ab = df2.iloc[:,7]
     name = df2['United States of America']
     d = {}
     for i in range(0,ab.shape[0]):
@@ -20,6 +20,9 @@ def q04_mapping(path1,path2):
         if df1.iloc[i,:]['state'] in d.keys():
             df1.iloc[i,-1] = d[df1.iloc[i,:]['state']]
 
-    df2 = df1.iloc[:,0:6]
+    df2 = df1.iloc[:,0:5]
+    df2['total'] = df1['total']
     df2['abbr'] = df1['abbr']
     return df2
+
+q04_mapping(path1,path2)
