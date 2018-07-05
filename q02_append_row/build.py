@@ -9,8 +9,8 @@ from greyatomlib.pandas_guided_project.q01_load_data.build import q01_load_data
 def q02_append_row(path):
     'write your solution here'
     df = q01_load_data(path)
-    sumn = df.sum()
-    return df.append(sumn, ignore_index=True)
+    sum_row = df[['Jan', 'Feb', 'Mar', 'total']].sum()
+    return df.append(sum_row, ignore_index=True)
 
 
 q02_append_row('data/excel-comp-data.xlsx')
