@@ -10,7 +10,9 @@ def q02_append_row(path):
     'write your solution here'
     df = q01_load_data(path)
     sum_row = df[['Jan', 'Feb', 'Mar', 'total']].sum()
-    return df.append(sum_row, ignore_index=True)
+    df_sum = pd.DataFrame(data=sum_row).T
+    df_final = df.append(df_sum, ignore_index=True)
+    return df_final
 
 
 q02_append_row('data/excel-comp-data.xlsx')
