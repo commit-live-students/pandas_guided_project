@@ -9,7 +9,7 @@ from greyatomlib.pandas_guided_project.q01_load_data.build import q01_load_data
 def q02_append_row(path):
     'write your solution here'
     df = q01_load_data(path)
-    sumn = df.sum(numeric_only=True)
+    sumn = df.sum()
     return df.append(sumn, ignore_index=True)
 
 
