@@ -15,5 +15,5 @@ def q02_append_row(path):
     return df_final
 
 
-q02_append_row('data/excel-comp-data.xlsx')
+#q02_append_row('data/excel-comp-data.xlsx')
 
