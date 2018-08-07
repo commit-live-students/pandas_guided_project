@@ -15,7 +15,7 @@ def q05_replace_missing_values(path1,path2):
     return df
 
 
-#print(q05_replace_missing_values(path1,path2).shape)
+#print(q
 
     
 
