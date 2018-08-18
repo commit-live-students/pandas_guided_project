@@ -10,6 +10,8 @@ def q02_append_row(path):
     df = q01_load_data(path)
     df.loc[len(df)] = df.iloc[:,6:10].sum(axis=0) 
 
+    df.fillna(value=0, inplace=True, axis=0)
+    
     return df
 
 q02_append_row(path)
