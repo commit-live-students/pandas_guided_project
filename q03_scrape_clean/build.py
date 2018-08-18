@@ -57,14 +57,16 @@ def q03_scrape_clean(url):
     outfile.close()
     
     df1 = pd.read_csv('D:\GreyAtom\Guided_Project\Scraped_Data\scrapeddata.csv')
+    df1['United States of America'] = df1['United States of America'].str.replace(' ', '')
+
     # % new empty columns are added to match the dataframe results
     df1[''] = ''
     df1[' '] = ''
     df1['  '] = ''
     df1['   '] = ''
     df1['    '] = ''
-    #print (list(df1))
-    #print (len(list_of_rows))
+    print (type(df1))
+    print (df1.shape)
     return df1
 q03_scrape_clean(url)
 
