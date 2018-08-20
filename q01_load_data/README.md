@@ -11,7 +11,7 @@ This exercise is split into two parts.
 - Takes the data from the `data folder` and read the excel file using pandas.
 - The names of the states `State` column are changed to lower case 
 - Create a new column named `total` which computes the total amount in the first quarter
-  of the financial year  
+  of the financial year i.e. for the months of Jan, Feb and Mar
 
 ### Parameters :
 | Parameter | dtype | argument type | default value | description |
