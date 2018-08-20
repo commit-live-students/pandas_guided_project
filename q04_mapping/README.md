@@ -9,7 +9,7 @@ name of states.
 - Uses the return of `q02_append_row` and also `q03_scrape_clean` 
 - Using the scraped data create a dictionary called `mapping` which has the Country
  as key and Abbreviation as value
--  Create a new column called `abbr` as the 6th column of the DataFrame 
+-  Create a new column called `abbr` as the 7th column (index = 6) of the DataFrame 
 returned from `q02_append_row`
 - Using the Dictionary `mapping` map the names of the states to fill in the abbr
 ### Parameters :
