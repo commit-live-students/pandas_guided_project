@@ -8,8 +8,7 @@ In this assignment you will be scraping data from the web and cleaning it.
 - Scrapes the url `https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations` and pick up
 the right table
 - use module `requests` to `get` the url and use pandas to read_html
-- Choose the right table by using proper indexing
-- First few rows consists of unclean data. Figure which rows need to be removed
+- First few rows consists of unclean data. You need to select rows from index 11 till end. Make the values at index 11 as column headers.
 - Remove space from the column named 'United States of America'
 - Save it to the scraped data to data folder and name it `scrapeddata.csv`
 
