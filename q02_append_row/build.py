@@ -15,13 +15,6 @@ def q02_append_row(path):
     data_set.at['Grand Total', 'Mar'] = data_set['Mar'].sum()
     data_set.at['Grand Total', 'total'] = data_set['total'].sum()
     
-    '''
-    Approach 2
-    '''
-    #data_set.loc['Grand Total', 'Jan'] = data_set['Jan'].sum()
-    #data_set.loc['Grand Total', 'Feb'] = data_set['Feb'].sum()
-    #data_set.loc['Grand Total', 'Mar'] = data_set['Mar'].sum()
-    #data_set.loc['Grand Total', 'total'] = data_set['total'].sum()
     return data_set
 q02_append_row(path)
 
