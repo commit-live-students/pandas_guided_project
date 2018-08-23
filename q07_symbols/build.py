@@ -32,13 +32,22 @@ def q07_symbols(path1,path2):
     dftemp=df1['state'].map(abbr_dict)
     df1.insert(loc=6,column='abbr',value=dftemp)
     groupby_abbr_sum=df1.groupby('abbr')[['Jan','Feb','Mar','total']].sum()
-    return df1[['Jan','Feb','Mar']].applymap(lambda x:('$'+str(x)))
+    df1[['Jan','Feb','Mar','total']]=df1[['Jan','Feb','Mar','total']].applymap(lambda x:('$'+str(int(x))))
+    f=list(df1['total'])
+    for i,j in enumerate(f):
+        if j=='05000':
+            f[i]='05,000'
+    df1['total']=pd.DataFrame(f)
+    return df1
+        
     
 
+        
 
 
 
 c=q07_symbols(path1,path2)
+
 c
 
 
