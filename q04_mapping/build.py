@@ -22,7 +22,7 @@ def q04_mapping(path1,path2):
     abbr = list()
     for state in df['state'].values:
         if state in mapping.keys() : abbr.append(mapping[state])
-        else : abbr.append('nan')
+        else : abbr.append(np.nan)
     pd.Series(abbr)
     
     df.insert(6, 'abbr', abbr)
