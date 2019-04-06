@@ -10,7 +10,7 @@ Doing this project will enable you to integrate Multiple data sources to answer 
 You also learn to perform common excel tasks with pandas
 
 
-## What will you learn in the session ?
+## What will you learn in the session?
 - Python Basics
 - Pandas
 - Web Scrapping
