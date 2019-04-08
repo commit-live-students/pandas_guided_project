@@ -11,7 +11,6 @@ def q03_scrape_clean(url):
     df2 = df[0].iloc[11:,1]
     df3 = df[0].iloc[11:,2]
     df4 = df[0].iloc[11:,3]
-
     df5 = df[0].iloc[11:,4]
     df6 = df[0].iloc[11:,5]
     df7 = df[0].iloc[11:,6]
