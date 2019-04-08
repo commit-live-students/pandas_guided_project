@@ -20,4 +20,4 @@ You also learn to perform common excel tasks with pandas
 
 ## Pre-requisites
 - Working knowledge of Pandas, Numpy, Matplotlib
-- Data indexing and slicing
+- Data indexing along with slicing
